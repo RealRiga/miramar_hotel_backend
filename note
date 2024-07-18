@@ -1,0 +1,42 @@
+# Setup guide
+
+    # step 1: Created project env - python -m venv miramar
+    # step 2: activated the project - .\myproject\Scripts\activate
+    # step 3: installed django -pip install django
+    # step 4: created a new django project - django-admin startproject HotelManagement
+    # step 5: cd into the project - cd HotelManagement
+    # step 6: created a new django app - python manage.py startapp main
+
+
+
+# in the HotelManagement/setting.py we added the main to the INSTALLED_APPS -
+
+        #   INSTALLED_APPS = [
+                #'main',
+        #   ]
+
+# Defining the Models (main/models.py)
+        # We defined the models for users, rooms, bookings and feedback in (main/models.py)
+        
+        
+# Admin configuration (main/admin.py)
+        # We registered the models
+        
+        
+# user Registration and Authentication (main/forms.py)
+        # We created the forms.py file in main for user registration and profile management
+        
+
+# Views (main/views/py)
+        # We implemented views for handling user actions
+        
+        
+# Urls (HotelManagement/urls.py)
+        # We configured the URLs for the views
+
+
+
+  #python manage.py makemigrations
+#python manage.py migrate
+#python manage.py runserver
+# pip install -r requirements.txt
